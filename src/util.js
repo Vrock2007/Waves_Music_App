@@ -73,6 +73,16 @@ function chillHop() {
       active: false,
       color: ["#e0acdd", "#8aace9"],
     },
+    {
+      name: "Jab Tak hai Jaan Poem",
+      artist: "AR Rahman, Shah Rukh Khan, Uday Chopra",
+      cover:
+        "https://i.ibb.co/6yfR4Tq/Jab-Tak-Hai-Jaan-Printed-Poster-scaled.jpg",
+      audio: "https://audio.jukehost.co.uk/api/external/download/RkcTUpeQ3ogOBCRJJVK3euZf8akwRAmG",
+      id: uuidv4(),
+      active: false,
+      color: ["#e0acdd", "#8aace9"],
+    },
   ];
 }
 
