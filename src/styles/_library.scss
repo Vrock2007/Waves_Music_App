@@ -1,0 +1,18 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100%;
+    background: lightcyan;
+    box-shadow: 2px 2px 50px gray;
+}
+
+.library-songs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 20%;
+    }
+}
