@@ -4,6 +4,16 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
   return [
     {
+      name: "Solar Core",
+      cover:
+        "https://uploads-ssl.webflow.com/5fc4bca9bd65e8f2bf87f576/60a2c11dde916a66ca845904_Chillhop-E2021-02-Summer-Artworks-v01_Single%20Cover%2003%201.png",
+      artist: "Mama Aiuto",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=16179",
+      color: ["#FEAF83", "#882C41"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
       name: "Beaver Creek",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
@@ -11,7 +21,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Daylight",
@@ -83,16 +93,7 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    {
-      name: "Solar Core",
-      cover:
-        "https://uploads-ssl.webflow.com/5fc4bca9bd65e8f2bf87f576/60a2c11dde916a66ca845904_Chillhop-E2021-02-Summer-Artworks-v01_Single%20Cover%2003%201.png",
-      artist: "Mama Aiuto",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=16179",
-      color: ["#FEAF83", "#882C41"],
-      id: uuidv4(),
-      active: false,
-    },
+
     {
       name: "Jab Tak hai Jaan Poem",
       artist: "AR Rahman, Shah Rukh Khan, Uday Chopra",

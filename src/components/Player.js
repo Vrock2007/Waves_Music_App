@@ -58,6 +58,7 @@ const Player = ({currentSong, isPlaying, setIsPlaying}) => {
         </div>
         <audio
           onTimeUpdate={timeUpdateHandler}
+          onLoadedMetadata={timeUpdateHandler}
           ref={audioRef}
           src={currentSong.audio}
         ></audio>
