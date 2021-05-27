@@ -73,6 +73,26 @@ function chillHop() {
       active: false,
       color: ["#e0acdd", "#8aace9"],
     },
+    {
+      name: "Low Rider",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2021/04/cb0cc6270d7f2e1bb13e44e8832bd5c9b2a61080-1024x1024.jpg",
+      artist: "Evil Needle",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=17090",
+      color: ["#e6b04e", "#EB4C49"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Solar Core",
+      cover:
+        "https://uploads-ssl.webflow.com/5fc4bca9bd65e8f2bf87f576/60a2c11dde916a66ca845904_Chillhop-E2021-02-Summer-Artworks-v01_Single%20Cover%2003%201.png",
+      artist: "Mama Aiuto",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=16179",
+      color: ["#FEAF83", "#882C41"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
