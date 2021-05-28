@@ -103,7 +103,7 @@ function chillHop() {
         "https://audio.jukehost.co.uk/api/external/download/RkcTUpeQ3ogOBCRJJVK3euZf8akwRAmG",
       id: uuidv4(),
       active: false,
-      color: ["#e0acdd", "#8aace9"],
+      color: ["#B61515", "#F5C91E"],
     },
   ];
 }
