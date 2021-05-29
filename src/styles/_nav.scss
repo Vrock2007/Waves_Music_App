@@ -1,0 +1,57 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    // button{
+    //     background: transparent;
+    //     border: 3px solid rgb(44, 44, 44);
+    //     cursor: pointer;
+    //     padding: 0.5rem;
+        
+    // }    
+
+    button {
+    font-size: 1rem;
+    background: #292929;
+    color: #fff;
+    border: 0.15rem solid #292929;
+    padding: 0.3rem;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    }
+    button:hover {
+    color: #292929;
+    }
+    button::after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+    }
+
+    button[class^="slide"]::after {
+    transition: all 0.35s;
+    }
+
+    button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+    }
+    
+    button.slide_from_left::after {
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    }
+
+}
