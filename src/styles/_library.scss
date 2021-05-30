@@ -26,9 +26,9 @@
         width: 30%;
     }
     &:hover{
-        // background: rgb(245, 228, 255);
-        background: -webkit-linear-gradient(to right, #ffe2cf, #ffc3c9, #d2baff);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ffe2cf, #ffc3c9, #d2baff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ffe2cf;
+        // background: -webkit-linear-gradient(to right, #ffe2cf, #ffc3c9, #d2baff);  /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(to right, #ffe2cf, #ffc3c9, #d2baff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 }

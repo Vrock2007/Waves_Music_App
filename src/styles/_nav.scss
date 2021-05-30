@@ -13,6 +13,7 @@ nav{
     // }    
 
     button {
+    cursor: pointer;
     font-size: 1rem;
     background: #292929;
     color: #fff;
@@ -25,6 +26,7 @@ nav{
     }
     button:hover {
     color: #292929;
+    
     }
     button::after {
     content: "";

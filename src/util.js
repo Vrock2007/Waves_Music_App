@@ -96,7 +96,7 @@ function chillHop() {
 
     {
       name: "Jab Tak hai Jaan Poem",
-      artist: "AR Rahman, Shah Rukh Khan, Uday Chopra",
+      artist: "AR Rahman, SRK",
       cover:
         "https://i.ibb.co/6yfR4Tq/Jab-Tak-Hai-Jaan-Printed-Poster-scaled.jpg",
       audio:
