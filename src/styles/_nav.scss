@@ -58,6 +58,11 @@ nav{
 
 }
 
+.brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
 
 // Optimizing for Mobile View
 
@@ -66,5 +71,8 @@ nav{
         button{
             z-index: 10;
         }
+    }
+    .brand{
+        font-size: 1.5rem;
     }
 }
