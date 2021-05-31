@@ -55,12 +55,18 @@
 input[type="range"]:focus {
   outline: none;
 }
+
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 16px;
   width: 16px;
-//   background: rgb(141, 141, 141);
-//   border-radius: 1rem;
+}
+
+//Optimizing for Mozilla
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
 }
 
 
