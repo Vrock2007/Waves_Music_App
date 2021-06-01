@@ -94,17 +94,6 @@ function chillHop() {
       active: false,
     },
 
-    {
-      name: "Jab Tak hai Jaan Poem",
-      artist: "AR Rahman, SRK",
-      cover:
-        "https://i.ibb.co/6yfR4Tq/Jab-Tak-Hai-Jaan-Printed-Poster-scaled.jpg",
-      audio:
-        "https://audio.jukehost.co.uk/api/external/download/RkcTUpeQ3ogOBCRJJVK3euZf8akwRAmG",
-      id: uuidv4(),
-      active: false,
-      color: ["#B61515", "#F5C91E"],
-    },
   ];
 }
 
